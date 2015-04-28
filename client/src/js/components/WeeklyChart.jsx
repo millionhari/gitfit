@@ -69,7 +69,7 @@ var WeeklyChart = React.createClass({
           pointStrokeColor: '#fff',
           pointHighlightFill: '#fff',
           pointHighlightStroke: 'rgb(140, 234, 102)',
-          data: [0, 0, 0, 0, 0, 0, 0]
+          data: [4, 5, 0, 0, 0, 0, 0]
         }
       ]
     };

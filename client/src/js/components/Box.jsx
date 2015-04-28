@@ -57,7 +57,7 @@ var Box = React.createClass({
     return (
       <div className={this.props.storageType + 's-box'}>
         <h2>{this.props.title}</h2>
-        <Chart parentId={this.props.storageType + 's-chart'} currentValue={this.state.currentValue} max={this.props.max} />
+        <Chart parentId={this.props.storageType + 's-chart'} currentValue={this.props.currentValue} max={this.props.max} />
       </div>
     );
   }
